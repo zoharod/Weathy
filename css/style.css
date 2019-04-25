@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700');
+
+body{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 15px;
+	color: #858a99;
+}
+.header-area.sticky {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+	background-color: #fff !important;
+}
+
+.header-area.sticky .nav-link{
+	color: #2c3143;
+}
+
+.header-area.sticky .nav-link:hover{
+	color: #2c3143;
+}
+
+.header-area.sticky .active .nav-link{
+	color: #2c3143;
+}
+
+.header-area.sticky .active .nav-link:hover{
+	color: #2c3143;
+}
+
+.header-area.sticky .nav-link:hover::after{
+	background-color: #2c3142;
+	
+}
+
+.header-area.sticky .navbar-brand .d-block{
+	display: none !important;
+}
+
+.header-area.sticky .navbar-brand .d-none{
+	display: block !important;
+}
+
+
+#home{
+	padding-top: 10%;
+	position: relative;
+	background-color: #f9c81e;
+	color: #fff;
+}
+
+#home h1{
+	font-size: 100px;
+	font-weight: 500;
+}
+
+#home h2{
+	font-size: 40px;
+}
+
+#home p{
+	font-size: 20px;
+}
+
+
+.section{
+	padding: 7% 0;
+	border-bottom: solid 1px #ddd;
+}
+
+.title{
+	font-size: 50px;
+	font-weight: 500;
+	color: #2c3142;
+}
+
+.subtitle{
+	font-size: 24px;
+	font-weight: 500;
+	color: #858a99;
+	padding-bottom: 5%;
+}
+
+
+.btn-app{
+	background-color: #fff;
+	color: #858a99 !important;
+	border-radius: 100px;
+	font-weight: 300;
+}
+
+.header-area.sticky .btn-app{
+	background-color: #2078dc;
+	color: white !important;
+}
+
+.header-area.sticky .btn-app:hover::after,
+.navbar-nav .nav-link.btn-app:hover::after{
+	display: none;
+	
+}
+
+
+#forecasting{
+	text-align: center;
+	background-color: #fafafa;
+}
+
+#forecasting img{
+	width: 70px;
+	padding: 20px 0;
+}
+
+
+
+#unique .iconos img{
+	width: 40px;
+	margin-right: 20px;
+}
+
+#watch{
+	background-image:url(../img/bg-sky.png) ;
+	background-repeat: repeat-x;
+	padding-bottom: 0;
+}
+
+.img-80{
+	max-width: 80%;
+}
+
+.watches img{
+	max-width: 50%;
+}
+
+
+#apps{
+	background-image: url(../img/bg-snow.png);
+	background-size: auto;
+	background-position: center;
+	background-repeat: repeat;
+	padding-bottom: 0;
+}
+
+#apps .subtitle{
+	color: white;
+	margin-top: 30%;
+	font-size: 30px;
+}
+
+#apps label{
+	color: white;
+	
+}
+
+footer{
+	background-color: #2078dc;
+	color: white;
+	padding: 30px 0;
+}
+
+footer .fab{
+	background-color: white;
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	color: #333;
+	border-radius: 100%;
+}
+
+
+
+
